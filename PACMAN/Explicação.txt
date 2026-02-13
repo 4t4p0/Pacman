@@ -1,0 +1,36 @@
+************DESCRIÇÃO DO TRABALHO************
+
+-O trabalho busca recriar um jogo do PACMAN usando a linguagem C e a biblioteca raylib para o uso dos elementos gráficos necessários para desenvolver o programa.
+
+-O programa deveria seguir alguns requisitos mínimos, entretanto fora eles os desenvolvedores teriam mais liberdade na criação  do jogo.
+
+******************DIRETORIO******************
+
+-As pastas de saves possuem os 3 slots para salvar o jogo, sendo que, para cada slot, há um arquivo de texto (para guardar o mapa) e um arquivo binário (para guardar as informações do mapa).
+
+-O arquivo "ranking.bin" possui uma lista de 5 jogadores fictícios todos com a pontuação 0.
+
+-Os arquivos de mapa devem ser adicionados, podendo ser adicionados até 99 mapas seguindo os nomes "Mapa01.txt", "Mapa02.txt", "Mapa03.txt"...
+
+***************DENTRO DO JOGO***************
+Menus:
+
+-Todos os menus acessíveis durante o jogo (como o menu principal, a tela de pausa e a tela de pontuação) podem ser navegados usando as setas ou as teclas WASD. As opções podem ser selecionadas com a tecla ENTER e, quando disponível, você pode sair do menu com a tecla SPACE. Note que o menu de pausa tem uma opção específica para sair.
+
+Início do Jogo:
+
+-Para começar um novo jogo, selecione a opção "Novo Jogo" no menu.
+-Para retomar um jogo salvo, clique em "Carregar Jogo", desde que você tenha um jogo salvo anteriormente.
+
+Durante o Jogo:
+
+-Após 2 minutos de jogo, os fantasmas aumentam a velocidade, aumentando a dificuldade.
+-Pressione TAB para pausar o jogo. Na tela de pausa, você pode optar por retornar ao menu, continuar jogando ou salvar o jogo em um dos 3 slots disponíveis.
+
+Fim do Jogo:
+
+-Se suas vidas acabarem e sua pontuação estiver entre os 5 melhores, você será solicitado a digitar seu nome para inclusão no ranking.
+-Ao completar uma fase, você será automaticamente levado para a próxima.
+-Após completar todas as fases, se sua pontuação estiver entre os 5 melhores, você deverá digitar seu nome para o ranking. Em seguida, você será redirecionado para o menu principal.
+
+BOM JOGO!
